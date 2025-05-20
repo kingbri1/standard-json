@@ -37,7 +37,7 @@ importers:
         version: 3.13.11
       zod-to-json-schema:
         specifier: ^3.24.1
-        version: 3.24.4(zod@3.24.2)
+        version: 3.24.4(zod@3.25.7)
     devDependencies:
       '@standard-schema/spec':
         specifier: ^1.0.0
@@ -55,8 +55,8 @@ importers:
         specifier: ^1.0.0-rc.4
         version: 1.0.0-rc.4(typescript@5.8.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.24.2
+        specifier: ^3.25.0
+        version: 3.25.7
 
 packages:
 
@@ -1011,8 +1011,8 @@ packages:
     peerDependencies:
       zod: ^3.24.1
 
-  zod@3.24.2:
-    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+  zod@3.25.7:
+    resolution: {integrity: sha512-YGdT1cVRmKkOg6Sq7vY7IkxdphySKnXhaUmFI4r4FcuFVNgpCb9tZfNwXbT6BPjD5oz0nubFsoo9pIqKrDcCvg==}
 
 snapshots:
 
@@ -1759,8 +1759,8 @@ snapshots:
       siginfo: 2.0.0
       stackback: 0.0.2
 
-  zod-to-json-schema@3.24.4(zod@3.24.2):
+  zod-to-json-schema@3.24.4(zod@3.25.7):
     dependencies:
-      zod: 3.24.2
+      zod: 3.25.7
 
-  zod@3.24.2: {}
+  zod@3.25.7: {}
