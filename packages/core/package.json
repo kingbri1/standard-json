@@ -1,6 +1,6 @@
 {
   "name": "@kingbri1/standard-json",
-  "version": "0.2.1-pre2",
+  "version": "0.2.1-pre3",
   "type": "module",
   "license": "MIT",
   "main": "dist/index.cjs",
