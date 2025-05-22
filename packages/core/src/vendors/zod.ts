@@ -11,7 +11,7 @@ export const getToJsonSchemaFn = async (): Promise<ToJsonSchemaFn> => {
     if ("_zod" in zodSchema) {
       return z4.toJSONSchema(
         zodSchema as z4.$ZodType,
-        { target: "draft-7", unrepresentable: "any" }
+        { target: "draft-7", io: "input" }
       ) as JSONSchema7;
     } else {
       const { zodToJsonSchema } = await tryImport(
