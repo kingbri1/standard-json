@@ -2,7 +2,7 @@ import type { JSONSchema7 } from "json-schema";
 
 export type ToJsonSchemaFn = (
   schema: unknown,
-  options?: unknown,
+  options?: Record<string, unknown>,
 ) => JSONSchema7 | Promise<JSONSchema7>;
 
 export const tryImport = async <T>(
